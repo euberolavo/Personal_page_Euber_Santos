@@ -1,5 +1,5 @@
 .container {
-    background-color: #191919;
+    background-color: #b7babc;
     margin-left: 13em;
     width: 1fr;
     height: 100vh;
@@ -24,6 +24,7 @@
     line-height: 2em;
     font-size: 1rem;
     margin-bottom: 2rem;
+    color: #707479;
 }
 
 .social {
