@@ -1,0 +1,56 @@
+.footer {
+    bottom: 0;
+    display: grid;
+    justify-self: center ;
+    position: fixed;
+    width: 100vw;
+    background: gray;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.5vh;
+}
+
+.footer-links a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-family: poppins;
+    color: #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+.footer-links li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.footer-links li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    cursor: pointer;
+}
+
+.footer-links img {
+    margin-bottom: 6px;
+}
+
+
+@media screen and (min-width : 1200px) {
+    .footer {
+        display: none;
+    }
+}

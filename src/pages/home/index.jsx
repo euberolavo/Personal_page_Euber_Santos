@@ -12,9 +12,7 @@ import './home.css';
 
 export default function Index() {
   return (
-    <div>
       <Page>
-        <div>
           <div className="container">
             <div className="avatar">
               <img src={Euber} alt="Foto" />
@@ -54,8 +52,6 @@ export default function Index() {
               </ul>
             </div>
           </div>
-        </div>
       </Page>
-    </div>
   );
 }

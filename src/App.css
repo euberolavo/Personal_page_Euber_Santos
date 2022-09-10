@@ -1,13 +1,7 @@
-/* .circle-image {
-    display: inline-block;
-    overflow: hidden;
-    width: 33%;
-    height: 0;
-} 
-.circle-image img {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  border-radius: 20% 60% 40% 30%;
-  object-fit : cover ;
-} */
+
+@media screen and (max-width : 1200px) {
+  .App {
+      display: flex;
+      flex-direction: column;
+  }
+}
