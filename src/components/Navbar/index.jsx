@@ -2,14 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import './navbar.css';
-import Programmer from "../../img/programmer.svg"
+import Programmer from "../../img/logoes.png"
+import LogoEuber from "../../img/euberLogo.png"
 
 export default function Navbar() {
   return (
     <div className="header">
       <div className="header-box">
         <Link to="/" className='link-logo'>
-        <img src={Programmer} alt="Logo" />
+        <img src={Programmer} alt="Logo" className='logopc'/>
+        <img src={LogoEuber} alt="Logo" className='logomobile'/>
         </Link>
         <div className="links">
           <ul>

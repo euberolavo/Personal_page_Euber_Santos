@@ -4,14 +4,14 @@
     justify-self: center ;
     position: fixed;
     width: 100vw;
-    background: gray;
+    background: #62707e;
 }
 
 .footer-links ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 5.5vh;
+    height: 6.5vh;
 }
 
 .footer-links a {
