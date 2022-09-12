@@ -1,0 +1,6 @@
+.page {
+    background-size: auto;
+    background-attachment: inherit;
+      background: linear-gradient(#dddddd, #778899);
+      min-height: 100vh;
+}

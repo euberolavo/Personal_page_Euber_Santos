@@ -33,7 +33,7 @@ export default function Navbar() {
             </li>
             <li>
               <img src="http://tokyo.ibthemespro.com/assets/img/svg/mail.svg" alt="Contatos" />
-              <Link to="/teste">Contato</Link>
+              <Link to="/contato">Contato</Link>
             </li>
           </ul>
         </div>

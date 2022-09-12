@@ -1,7 +1,12 @@
 import React from 'react';
 
+import "./page.css"
+
 export default function Page({ children }) {
   return (
-      <>{children}</>
+      <div className='page'>
+
+        {children}
+      </div>
   );
 }

@@ -10,6 +10,7 @@ import {
 
 import Home from "./pages/home/index.jsx";
 import Sobre from "./pages/about/index.jsx";
+import Contact from "./pages/contact/index.jsx";
 // import Usuario from "./Usuario";
 
 const AppRoutes = () => {
@@ -21,6 +22,7 @@ const AppRoutes = () => {
         <Routes>
            <Route element = { <Home /> }  path="/" exact />
            <Route element = { <Sobre /> }  path="/sobre" exact/>
+           <Route element = { <Contact /> }  path="/contato" exact/>
            {/* <Route component = { Usuario }  path="/usuario" /> */}
         </Routes>
 
